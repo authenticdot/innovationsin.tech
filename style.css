@@ -83,3 +83,26 @@ a, a:hover, a:active, a:visited{
     font-size: 1.6rem;
 
   }
+
+
+/*==============
+  Footer
+  =============*/
+.page-footer {
+  border-top: 2px dotted grey;
+  color: #9b9b9b;
+  background-color: #f4f4f4;
+  font-size: 1rem;
+  height: 70px;
+  }
+
+  .page-footer .made-with-love{
+    float: left;
+  }
+  .page-footer .credits {
+    float:right;
+  }
+
+.page-footer-content{
+  padding: 1em 0;
+}

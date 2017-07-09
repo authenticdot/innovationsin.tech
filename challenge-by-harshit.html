@@ -1,0 +1,53 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+		
+		#hugebox {
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			background-color: red;
+		}
+		
+		#yolo {
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			background-color:blue;
+			position:relative;
+			top:200px;
+			left:200px;
+		}
+	</style>
+</head>
+
+<body>
+	<button id="up">Up</button>
+	<button id="down">Down</button>
+	<button id="left">Right</button>
+	<button id="right">Left</button>
+	
+	
+	<div id="hugebox">
+		<div id="yolo"></div>
+	</div>
+	
+	<script>
+		document.getElementById("up").onclick = function(){
+			var Top = parseInt($("#yolo").css("top"),10);
+			document.getElementById("yolo").style.top = (Top - 50) + 'px';
+		};
+		document.getElementById("down").onclick = function(){
+			var Down = parseInt($("#yolo").css("top"),10);
+			document.getElementById("yolo").style.top = (Down + 50) + 'px';
+		};
+		document.getElementById("left").onclick = function(){
+			var Left = parseInt($("#yolo").css("left"),10);
+			document.getElementById("yolo").style.left = (Left + 50) + 'px';
+		};
+		document.getElementById("right").onclick = function(){
+			var Left = parseInt($("#yolo").css("left"),10);
+			document.getElementById("yolo").style.left = (Left - 50) + 'px';
+		};
+	</script>
+</body>

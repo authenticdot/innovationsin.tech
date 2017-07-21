@@ -93,9 +93,9 @@ p{
 
   }
   
-  /*==============
+  /*================
     Main Visual
-  ==============*/
+  ===================*/
   .main-visual {  
 	}
 	
@@ -111,9 +111,35 @@ p{
 		font-size:1.4em;
 	}
 
-/*============
-	claims
-	==============*/
+/*=======================
+	Claims
+========================*/
+
+.about-me{
+	 position: relative;
+ }
+ .about-me:before{
+	 content: "  ";
+	 display: block;
+	 height: 30px;
+	 background: url(../pattern.png) left top repeat-x;
+	 margin-bottom: 2em;
+ }
+ 
+ .about-me .title-wrapper {
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 right:0;
+	 text-align:center;
+ }
+ 
+ .about-me h2{
+	 display:inline;
+	 background-color:white;
+	 padding-bottom:0.8rem;
+	 padding-left:3rem;
+ }
 	
 .claim{
 	float:left;
@@ -135,24 +161,67 @@ p{
 		float:left;
 		width:75%;
 	}
-/*==============
+
+/*=========================
+  Portfolio
+ ==========================*/
+ 
+ .portfolio{
+	 position: relative;
+ }
+ .portfolio:before{
+	 content: "  ";
+	 display: block;
+	 height: 30px;
+	 background: url(../pattern.png) left top repeat-x;
+	 margin-bottom: 2em;
+ }
+ 
+ .portfolio .title-wrapper {
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 right:0;
+	 text-align:center;
+ }
+ 
+ .portfolio h2{
+	 display:inline;
+	 background-color:white;
+	 padding-bottom:0.8rem;
+	 padding-left:3rem;
+ }
+ 
+/*=========================
   Footer
-  =============*/
-.page-footer {
-  border-top: 2px dotted grey;
-  color: #9b9b9b;
-  background-color: #f4f4f4;
-  font-size: 1rem;
-  height: 70px;
-  }
-
-  .page-footer .made-with-love{
-    float: left;
-  }
-  .page-footer .credits {
-    float:right;
-  }
-
-.page-footer-content{
-  padding: 1em 0;
+ ==========================*/
+.page-footer:before {
+    content: " ";
+    display: block;
+    height: 5px;
+    background: url(../pattern.png) left top repeat-x;
 }
+
+.page-footer {
+    background-color: #f4f4f4;
+    color: #9b9b9b;
+    font-size: 1rem;
+    height: 70px;
+    }
+
+    .page-footer .made-with-love {
+        float: left;
+    }
+
+    .page-footer .credits {
+        float: right;
+    }
+
+.page-footer-content {
+    padding: 1em 0;
+}
+
+
+
+
+

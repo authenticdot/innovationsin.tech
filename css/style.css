@@ -39,6 +39,10 @@ p{
   margin: 0 auto;
 }
 
+.data-block{
+	margin-bottom:3rem;
+}
+
 .clearfix:before, .clearfix:after{
   content: " ";
   display: table;
@@ -107,7 +111,30 @@ p{
 		font-size:1.4em;
 	}
 
-
+/*============
+	claims
+	==============*/
+	
+.claim{
+	float:left;
+	width:30%;
+	margin-right:5%;
+	}
+	
+	.claim:last-child{
+			margin-right:0;
+	}
+	.claim header > i{
+		font-size:1.8rem;
+		float:left;
+		font-weight:bold;
+		color:#9a9a9a;
+		width:25%;
+	}
+	.claim header > h2 {
+		float:left;
+		width:75%;
+	}
 /*==============
   Footer
   =============*/

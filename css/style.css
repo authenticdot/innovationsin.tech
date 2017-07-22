@@ -115,18 +115,18 @@ p{
 	Claims
 ========================*/
 
-.about-me{
+#about-me{
 	 position: relative;
  }
- .about-me:before{
+ #about-me:before{
 	 content: "  ";
 	 display: block;
 	 height: 30px;
-	 background: url(../pattern.png) left top repeat-x;
+	 background: url(../pics/pattern.png) left top repeat-x;
 	 margin-bottom: 2em;
  }
  
- .about-me .title-wrapper {
+ #about-me .title-wrapper {
 	 position:absolute;
 	 top:0;
 	 left:0;
@@ -134,7 +134,7 @@ p{
 	 text-align:center;
  }
  
- .about-me h2{
+ #about-me h2{
 	 display:inline;
 	 background-color:white;
 	 padding-bottom:0.8rem;
@@ -173,7 +173,7 @@ p{
 	 content: "  ";
 	 display: block;
 	 height: 30px;
-	 background: url(../pattern.png) left top repeat-x;
+	 background: url(../pics/pattern.png) left top repeat-x;
 	 margin-bottom: 2em;
  }
  
@@ -199,7 +199,7 @@ p{
     content: " ";
     display: block;
     height: 5px;
-    background: url(../pattern.png) left top repeat-x;
+    background: url(../pics/pattern.png) left top repeat-x;
 }
 
 .page-footer {
